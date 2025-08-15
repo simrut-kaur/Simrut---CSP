@@ -65,6 +65,22 @@ Hi! My name is Simrut Kaur.
 </body>
 </html>
 
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+  body {
+    background-color: #1E1E1E;
+    margin: 0;
+    height: 100vh;
+  }
+</style>
+</head>
+<body>
+</body>
+</html>
+
+
 
 
 ## Links to Learning
