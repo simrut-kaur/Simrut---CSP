@@ -1,12 +1,12 @@
 ---
 layout: base
-title: I'm [Your Full Name]
+title: I'm Simrut Kaur
 hide: true
 ---
 
 ### Me and Team
 
-Hi! My name is S[Your Full Name].
+Hi! My name is Simrut Kaur.
 
 | Role         | Name     | Repo Location                       | Stream                | Repo Name |
 |--------------|----------|-------------------------------------|-----------------------|-----------|
