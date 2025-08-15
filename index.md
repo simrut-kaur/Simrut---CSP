@@ -16,6 +16,57 @@ Hi! My name is Simrut Kaur.
 | Scrummer     | Aadit    | github.com/aaadit/student           | downstream (fork)     | student   |
 
 
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Confetti Button</title>
+  <style>
+    body {
+      display: flex;
+      height: 100vh;
+      justify-content: center;
+      align-items: center;
+      background: #f0f0f0;
+      font-family: sans-serif;
+    }
+    button {
+      background: #ff4081;
+      color: white;
+      border: none;
+      padding: 15px 25px;
+      font-size: 18px;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: background 0.3s;
+    }
+    button:hover {
+      background: #e73370;
+    }
+  </style>
+</head>
+<body>
+
+  <button id="confettiBtn">🎉 Celebrate!</button>
+
+  <!-- Confetti Library -->
+  <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
+  <script>
+    const button = document.getElementById('confettiBtn');
+
+    button.addEventListener('click', () => {
+      confetti({
+        particleCount: 150,
+        spread: 70,
+        origin: { y: 0.6 }
+      });
+    });
+  </script>
+
+</body>
+</html>
+
+
+
 ## Links to Learning
 
 ### Development Environment
