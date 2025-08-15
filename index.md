@@ -26,7 +26,7 @@ Hi! My name is Simrut Kaur.
       height: 100vh;
       justify-content: center;
       align-items: center;
-      background: #f0f0f0;
+      background: #000000ff;
       font-family: sans-serif;
     }
     button {
